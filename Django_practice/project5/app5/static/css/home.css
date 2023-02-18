@@ -1,0 +1,256 @@
+body{
+          /* overflow: hidden; */
+          margin: 0;
+          padding: 0; 
+    }
+    /* .nav-back{
+          background-color: #dd3a3a;
+    } */
+    .navbar{
+          
+          border-bottom-right-radius: 800px;
+         background-color: #e2dddd;
+          border-top-left-radius: 800px;
+    }
+    
+    .dropdown:hover>.dropdown-menu{
+          display: block;        
+    }
+    .dropdown-menu{
+          
+          background: transparent;
+          background: linear-gradient(to top,rgba(0, 0, 0, 0.745),rgba(0, 0, 0, 0.863));      
+    }
+    
+    .dropdown-item{
+          color: #fff;
+          transition: 0.1s;
+    }
+    .dropdown-item:hover{
+          color: #fff;
+          background-color:rgb(10, 65, 248); 
+    }
+    .carousel-inner{
+          background: linear-gradient(to top,rgba(13, 167, 238, 0.596),white);      
+    }
+    .card img{
+          width: 100%;
+          height: 100%;
+    }
+    #about{
+       
+          
+          background: linear-gradient(to top,rgba(0, 224, 254, 0.576),rgba(15, 7, 248, 0.394)),url"({% static 'images/bg\ img19.jpeg' %})";  
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 600px;
+          
+    }
+    
+    .quotation{
+          background: linear-gradient(to top,rgba(49, 49, 49, 0.74),rgba(35, 28, 252, 0.394)),url('./images/bg\ img19.jpeg');  
+          border-radius: 5%;
+          height: 500px;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: cover;
+          color: rgb(159, 240, 9);
+    }
+    
+    .inner{
+          overflow: hidden;     
+    }
+    .inner img{
+          transition: all 1.5s ease;
+    }
+    .inner:hover img{
+          transform: scale(1.5);
+    }
+    
+    #card{
+          transition: all 1s ease;
+    }
+    #card:hover{
+          transform: scale(1.2);
+          background-color: rgb(225, 228, 228);
+    }
+    .card-footer input{
+          width: 80px;
+          background: linear-gradient(to left,rgb(6, 135, 241),rgb(102, 240, 221));
+    }
+    .card-deck{
+          background-color:rgba(251, 227, 8, 0.624);
+          background: transparent;
+          position: sticky;
+    }
+    #contact{
+          background-size: cover;
+          background-repeat: no-repeat;
+          overflow: hidden;
+    }
+    .info ion-icon{
+          width: 30px;
+          height: 30px;    
+    }
+    form input{
+          border: none;
+          border-bottom: 1px solid #000;
+    }
+    td p{
+          font-size: 20px;
+          color: rgb(9, 224, 240);
+    }
+    /**********************************************************************************************/
+    #signin{
+          
+          /* transform: rotate(30deg); */
+          background: linear-gradient(30deg, #0084ff,#00f2ff);
+          border-bottom-right-radius: 800px;
+          /* background: linear-gradient(30deg, #f80e35,#f7f337); */
+          border-top-left-radius: 800px;
+    }
+    
+    .contain{
+          max-width:400px;
+          border-radius: 20px;
+         
+          /* background-image:linear-gradient(to right,#0084ff,#00f2ff); */
+    }
+    .s-card{
+          margin-top: 70px;
+          border-radius: 20px;
+          height: 600px;
+          /* background-image: linear-gradient(to right, #f51a2c, #fae635); */
+          background-image:linear-gradient(to right,#0084ff,#00f2ff);
+          border: none;
+          overflow: hidden;
+          box-shadow: 0 5px 8px #414141;
+          z-index: 0;
+          box-sizing: border-box;
+    }
+    .circle{
+          position: absolute;
+          bottom: -230px;
+          left: 50%;
+          transform: translate(-50%,-50%);
+          background: #fff;
+          clip-path:circle(50%);
+          height: 700px;
+          width: 700px;
+          z-index: -1;
+          overflow: hidden;
+    
+    }
+    .person{
+          color: #0084ff;
+          font-size: 40px;
+    }
+    p{
+          color: #0084ff;
+    }
+    .myHed{
+          margin-top: 30px;
+          font-size: 32px;
+          margin-bottom: 10px;
+          font-weight: 700;
+          background-image: linear-gradient(to right, #0084ff, #00f2ff);
+          
+          -webkit-background-clip: text;
+          background-clip: text;
+    }
+    .person-outline{
+          position: relative;
+          display: block;
+          left: -87px;
+          /* top: 30px; */
+    }
+    #signin .button{
+          width: 250px;
+          border-radius: 25px;
+          background-image: linear-gradient(to right, #f51a2c, #fae635);
+          /* background-image:linear-gradient(to right,#0084ff,#00f2ff); */
+          color: #fff;
+          font-weight: 700;
+    }
+    #signup .button{
+          width: 250px;
+          border-radius: 25px;
+          /* background-image: linear-gradient(to right, #f51a2c, #fae635); */
+          background-image:linear-gradient(to right,#0084ff,#00f2ff);
+          color: #fff;
+          font-weight: 700;
+    }
+    #signin .myInput{
+          width: 220px;
+          padding: 10px;
+          padding-left: 40px;
+          border-radius: 25px;
+          /* background-image:linear-gradient(to right,#0084ff,#00f2ff); */
+          background-image: linear-gradient(to right, #f51a2c, #fae635);
+          color: #fff;
+          border: none;
+          display: block;
+    }
+    #signup .myInput{
+          width: 220px;
+          padding: 10px;
+          padding-left: 40px;
+          border-radius: 25px;
+          background-image:linear-gradient(to right,#0084ff,#00f2ff);
+          /* background-image: linear-gradient(to right, #f51a2c, #fae635); */
+          color: #fff;
+          border: none;
+          display: block;
+    }
+    .myInput::placeholder{
+          color: #fff;
+          opacity: 0.6;
+    }
+    .myInput:focus{
+          border: none;
+          outline: none;
+    }
+    .check_1{
+          font-weight: 500;
+          color: rgb(85,85,85);
+          font-size: 12px;
+          margin: 15px auto;
+          cursor: pointer;
+    }
+    /* *****************************footer**************************** */
+    .footer {
+          background-image:linear-gradient(to top,#70706e98,#fff);
+    }
+    #contact ion-icon{
+          transition: 0.2s ease-in-out;
+          flex-wrap: wrap;
+    }
+    #contact ion-icon:hover{
+          transform: translateY(-15px);
+    }
+    .google{
+          color: #f51a2c;
+          font-size: 30px;
+    }
+    .twitter{
+          color: rgb(11, 160, 247);
+          font-size: 30px;
+    }
+    .instagram{
+          border-radius: 10px;
+          background: linear-gradient(blue, red,yellow);
+          font-size: 30px;
+    }
+    .whatsapp{
+     border-radius: 10px;
+     color: green;
+     font-size: 30px;
+     background-color: #fff;
+    }
+    .facebook{
+     color: rgb(11, 160, 247);
+     font-size: 30px;
+    }
+    /* **********************************NAVBAR************************************************ */
+    
+        

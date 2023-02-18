@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <title>Institute Website</title>
+  <link rel="stylesheet" href="{% static 'css/home.css' %}">
+  
+
+
+
+
+</head>
+<body>
+
+    <!-- Navbar starts -->
+    <div class="nav-back ">
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+            <div class="container">
+                
+                <img src="{% static 'images/levelup logo1.webp' %}" alt="no image" class="navbar-brand "width='15%' height="10%" role="tablist">
+              <!-- <a class="navbar-brand" role="tablist" href="#">My Institute</a> -->
+              <button class="navbar-toggler bg-secondary" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto  " role="tablist">
+                  <li class="nav-item ">
+                    <a class="nav-link  active text-primary" data-toggle="tab"  href="#home">Home</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link text-primary" data-toggle="tab" href="#courses">Courses</a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown text-primary" data-toggle="tab" href="#courses" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Courses</a>
+                    <div class="dropdown-menu"data-toggle="tab" class="" aria-labelledby="dropdownId">
+                      <a class=" dropdown-item "  data-toggle="tab" href="#fullstackdevelopment">Full stack Development</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#python">Python</a>
+                      <a class=" dropdown-item "  data-toggle="tab" href="#java">Java</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#azure">Azure</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#aws">AWS</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#sataengineering">Data Engineering</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#testing">Testing</a>
+                      <a class=" dropdown-item " data-toggle="tab" href="#cloud">Cloud</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary " data-toggle="tab" href="#signup">Signup</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" data-toggle="tab" href="#signin">Signin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary" data-toggle="tab" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar ends -->
+
+
+
+
+    
+    <div class="tab-content">
+    <div id="home" class="tab-pane active">
+          <!-- about section -->
+          <section id="about" class="  py-5">
+            <div class="container mt-5">
+
+              <h2 class="text-center text-light">About Our Institute</h2>
+              <h1 class="lead text-center mt-4 mb-5 text-light ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus numquam ipsum architecto libero aut quam, <br> corporis fugit odio saepe eos dignissimos dolores explicabo atque totam ipsam harum quidem labore asperiores fugiat dolorum. At corrupti inventore ea! Cum consequuntur, deleniti praesentium mollitia quibusdam atque asperiores ipsum at amet quam ex?</h1>
+              
+            </div>
+          </section>
+
+          <!-- Our Amazing Team -->
+
+        <section class="" id="ourteam">
+            <div class="container text-center">
+                <h1 class="team py-5 text-primary">Our Amazing Team</h1>
+
+                <div class="row ">
+                    <div class="col-sm-4 d-block m-auto ">
+                        <figure class="figure" id="figure1">
+                            <img src="./images/bg img15.webp"  style="border: 5px solid #066ca7;" class="figure-img-fluid rounded-circle" height="250px" width="250px" alt="no img">
+                        </figure>
+                        <figcaption>
+                            <h4> person one</h4>
+                            <p class="figure-caption">Lead Designer</p>
+                        </figcaption>
+
+                    </div>
+
+                    <div class="col-sm-4 d-block m-auto">
+                        <figure class="figure" id="figure2">
+                            <img src="./images/bg img17.webp" style="border: 5px solid #066ca7;" class="figure-img-fluid rounded-circle" height="250px" width="250px" alt="no img">
+                        </figure>
+                        <figcaption>
+                            <h4> person two</h4>
+                            <p class="figure-caption">Lead Designer</p>
+                        </figcaption>
+
+                    </div>
+
+                    <div class="col-sm-4 d-block m-auto">
+                        <figure class="figure" id="figure3">
+                            <img src="./images/bg img5.jpg" style="border: 5px solid #066ca7;" class="figure-img-fluid rounded-circle" height="250px" width="250px" alt="no img">
+                        </figure>
+                        <figcaption>
+                            <h4> person three</h4>
+                            <p class="figure-caption">Lead Designer</p>
+                        </figcaption>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+          <!-- ************* -->
+        <div class="quotation">
+          <div class="container">
+            <div class="quotations text-center display-4">
+                <h1 class="text-primary pt-5">A good <br>education <br>is the greatest gift <br>you can give yourself <br>or any one <br>else</h1>
+            </div>
+            <div class="neon text-center">
+                <a href="#" class="text-center">
+                    <span></span> 
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Levelup
+                </a>
+             </div>
+          </div>
+        </div>
+
+
+          <!-- Carousel-->
+            
+        <div id="carouselId" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselId" data-slide-to="1"></li>
+            <li data-target="#carouselId" data-slide-to="2"></li>
+            </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <div class="card-deck py-5 ">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/python png image.png" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/java png.jpeg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/azure png.jpeg" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center ">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/aws image.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    
+                    </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck py-5">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/aws devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/azure devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    
+                    </div>
+               </div>
+            </div>
+            <div class="carousel-item">
+                <div class="card-deck py-5">
+                    <div class="container">
+                        <div class="card-deck">
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            <div class="card" id="card">
+                                <div class="card-header">
+                                    <img src="./images/gcp devops.webp" alt="">
+                                </div>
+                                <div class="card-body">
+                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, aliquid.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <input type="button" value="Click">
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        
+                    
+                    </div>
+               </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        </div>
+            
+        
+          <!-- courses section -->
+          
+            <!-- ***************************************Contact section **************************************************-->
+        
+            <div id="contact" class="container-fluid bg-dark active" > <br>
+                <div class="container">
+                    <h1 class="text-center text-light">Contact Us</h1>
+                    <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem ex fugit illum nemo omnis, <br> minus asperiores explicabo voluptate officiis obcaecati.</p>
+                    <div class="row">
+                        <!-- <h2 class="text-primary">Contact info</h2> -->
+
+                        <div class="col-sm-6 ">
+                            
+                            <div class="info ml-auto">
+                                <!-- <figure class="figure">
+                                    <img src="<ion-icon name="location-outline"></ion-icon>"  class="figure-img-fluid rounded-circle" height="50px" width="50px" alt="no img">
+                                </figure> -->
+                                <h3 class="text-primary">Contact Info</h3>
+                                <table class=" mb-5">
+                                    <tr>
+                                        <td><figure class="figure" >
+                                            <a href="#" class="rounded-circle   " ><ion-icon name="location-outline" class="  text-light rounded-circle" ></ion-icon></a>
+                                       
+                                        </figure></td>
+                                        <td ><p class="text-light ml-2 ">Address <br>
+                                            <a href="#"> Aditya trade centre,Ameerpet,Hyderabad, <br>Telangana,500016.</a>
+                                            </p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><figure class="figure" >
+                                            <a href="#" class="rounded-circle    " ><ion-icon name="call-outline" class="  text-light rounded-circle" ></ion-icon></a>
+                                       
+                                        </figure></td>
+                                        <td><p class="text-light ml-2" >phone <br>
+                                            <a href="#">7893513124 <br>7330716356</a>
+                                        </p>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td><figure class="figure" >
+                                            <a href="#" class="rounded-circle   " ><ion-icon name="mail-open-outline" class="  text-light rounded-circle" ></ion-icon></a>
+                                       
+                                        </figure></td>
+                                        <td><p class="text-light ml-2">Email <br>
+                                            <a href="#">info@levelupedu.net</a>
+                                        </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        
+                        
+                        <div class="col-sm-6 text-center">
+                            <form class="bg-light mt-5 py-4 mb-5"> 
+                                <h3 class="mb-4">Send Message</h3>
+                                <input type="text" placeholder="Full Name" class="box w-50 h-30 mb-4" id="name"> 
+                                <input type="email" placeholder="Email" class="box w-50 mb-4" id="email">
+                                <input type="text" placeholder="Type Your Message.." class="box w-50 h-20    mb-4" id="name"> <br>
+                                <button type="submit" class="btn bg-primary w-50 "> send <i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 text-center pb-3">
+                            <a href=""><ion-icon name="logo-google" class="google "></ion-icon></a>
+                            <a href=""><ion-icon name="logo-twitter" class="twitter ml-3"></ion-icon></a>
+                            <a href=""><ion-icon name="logo-instagram" class="instagram text-light ml-3"></ion-icon></a>
+                            <a href=""><ion-icon name="logo-facebook" class="facebook ml-3"></ion-icon></a>
+                           <a href=""><ion-icon name="logo-whatsapp" class="whatsapp ml-3"></ion-icon></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- ************************FOOTER******************** -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <!-- <img src="./images/levelup logo1.webp" alt="no image" class="navbar-brand pt-2"  role="tablist"> -->
+                            <p class="text-center py-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia praesentium iste, eligendi pariatur, nobis eaque officia in sit velit assumenda id fuga saepe maxime.</p>
+                        </div>
+                        <div class="col-sm-4 text-center py-5">
+                            <h6>WHAT'S NEW</h6>
+                            <a href="#" class=" mb-5">Careers</a><br>
+                            <a href="#" class=" py-5">Privacy Policy</a><br>
+                            <a href="#" class=" py-5">Terms of use</a><br>
+                            <a href="#" class=" py-5">Laravel</a>
+                        </div>
+                        <div class="col-sm-4 py-5">
+                            <h6>SOCIAL NETWORKS</h6>
+                            <a href="#" class=" pl-3 pb-5"><ion-icon name="logo-twitter" class="twitter text-primary pr-1"></ion-icon>twittwer</a><br>
+                            <a href="#" class=" pl-3 pb-2"><ion-icon name="logo-instagram" class="instagram text-danger pr-1"></ion-icon>instagram</a><br>
+                            <a href="#" class=" pl-3 pb-2"><ion-icon name="logo-facebook" class="facebook text-primary pr-1"></ion-icon>facebook</a><br>
+                            <a href="#" class=" pl-3 pb-2"><ion-icon name="logo-whatsapp" class="whatsapp text-success pr-1"></ion-icon>whatsapp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div> 
+
+            <!--***************************************************************************************  -->
+            <div id="signup" class="container tab-pane fade"><br>
+                
+                    <div class="container contain pb-3">
+                        <div class="card s-card">
+                            <div class="card-body">
+                                <div class="circle"></div>
+                                <header class="myHed text-center">
+                                    <ion-icon name="person-circle-outline" class="person"></ion-icon>
+                                    <!-- <ion-icon name="person-outline" class="person"></ion-icon> -->
+                                    <p>SIGN UP</p>
+                                </header>
+                                <form class="main-form text-center">
+                                    <div class="form-group my-0">
+                                        <label class="my-0">
+                                            <!-- <ion-icon name="person-outline" ></ion-icon> -->
+                                            <input type="text" class="myInput" placeholder="Username">
+                                        </label>
+                                    </div>
+                                    <div class="form-group my-0">
+                                        <label class="mt-3">
+                                            <!-- <ion-icon name="person-outline" ></ion-icon> -->
+                                            <input type="email" name="emain" id="" class="myInput" placeholder="Email">
+                                        </label>
+                                    </div>
+                                    <div class="form-group my-0">
+                                        <label class="mt-2">
+                                            <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+                                            <input type="password" class="myInput"  placeholder="password">
+                                        </label>
+                                    </div>
+                                    <label class="check_1">
+                                        <input type="checkbox" checked>
+                                        Remember Me
+                                    </label>
+                                    <div class="form-group">
+                                        <label>
+                                            <button type="submit" class="form-control button" >Create account</button>
+                                            <!-- <input type="button" class="form-control button" value="Signup"> -->
+                                        </label>
+                                    </div>
+                                    <span class="check_1">Forget Password</span>
+                                </form>
+                            </div>
+                        </div>
+                   
+                </div>
+            </div>
+            <!-- **************************************************************************************** -->
+            <!-- <div id="courses" class="container tab-pane fade"><br> -->
+                <div id="fullstackdevelopment" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod veniam ex beatae quam sed repudiandae tempore corrupti, ipsam illo modi quia consequatur hic non ad alias, earum quidem sequi veritatis.</p>
+                    <h1>This is Front End Developer page</h1>
+                </div>
+
+                <div id="python" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus maiores quam assumenda itaque vel esse est vero enim voluptatibus doloribus facilis, impedit unde fuga dolor odit rem odio a.</p>
+                    <h1>This is Python page</h1>
+                </div>
+
+                <div id="java" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus maiores quam assumenda itaque vel esse est vero enim voluptatibus doloribus facilis, impedit unde fuga dolor odit rem odio a.</p>
+                    <h1>This is java page</h1>
+                </div>
+
+                <div id="azure" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus maiores quam assumenda itaque vel esse est vero enim voluptatibus doloribus facilis, impedit unde fuga dolor odit rem odio a.</p>
+                    <h1>This is Azure page</h1>
+                </div>
+
+                <div id="aws" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus maiores quam assumenda itaque vel esse est vero enim voluptatibus doloribus facilis, impedit unde fuga dolor odit rem odio a.</p>
+                    <h1>This is AWS page</h1>
+                </div>
+
+                <div id="testing" class="container tab-pane fade"><br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis necessitatibus maiores quam assumenda itaque vel esse est vero enim voluptatibus doloribus facilis, impedit unde fuga dolor odit rem odio a.</p>
+                    <h1>This is Resting page</h1>
+                </div>
+            <!-- </div> -->
+            <!-- *****************************************Signin form*********************************************** -->
+            
+                <div id="signin" class=" tab-pane fade"><br>
+                    <div class="container contain pb-3">
+                        <div class="card s-card">
+                            <div class="card-body">
+                                <div class="circle"></div>
+                                <header class="myHed text-center">
+                                    <ion-icon name="person-outline" class="person"></ion-icon>
+                                    <p>SIGN IN</p>
+                                </header>
+                                <form class="main-form text-center">
+                                    <div class="form-group my-0">
+                                        <label class="my-0">
+                                            <!-- <ion-icon name="person-outline" ></ion-icon> -->
+                                            <input type="text" class="myInput" placeholder="Username">
+                                        </label>
+                                    </div>
+                                    <div class="form-group my-0">
+                                        <label class="mt-3">
+                                            <!-- <ion-icon name="lock-closed-outline"></ion-icon> -->
+                                            <input type="password" class="myInput"  placeholder="password">
+                                        </label>
+                                    </div>
+                                    <label class="check_1">
+                                        <input type="checkbox" checked>
+                                        Remember Me
+                                    </label>
+                                    <div class="form-group">
+                                        <label>
+                                            <input type="button" class="form-control button" value="LOGIN">
+                                        </label>
+                                    </div>
+                                    <span class="check_1">Forget Password</span>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- ************************************************************************************ -->
+
+            
+    </div>
+
+
+    
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+
+       <script>
+        ScrollReveal({
+            reset : true,
+            distance:'100px',
+            duration:1500,
+            delay:200
+        });
+        ScrollReveal().reveal('#figure2,.instagram', { delay:200, origin:'top'});
+        ScrollReveal().reveal('#figure3,.google,.twitter', { delay:200, origin:'right'});
+        ScrollReveal().reveal('.punchline', { delay:200, origin:'bottom'});
+        ScrollReveal().reveal('#figure1,.facebook,.whatsapp',{delay:200, origin:'left'});
+    </script>
+    
+
+    {% block content %}
+    {% endblock %}
+    </body>
+  </html>
