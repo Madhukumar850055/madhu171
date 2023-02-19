@@ -1,0 +1,13 @@
+1.ls
+2.git add .    (through this command along with folder all files will go to github)
+3.git commit -m "third commit"
+4.git remote add origin https://github.com/Madhukumar850055/madhu171.git    (this path will be available in github in option of code)
+5.git push
+6.git push -- set-upstream origin master   (it will be shown after you enterd the git push command)
+7.git fetch origin master:tmp
+8.git rebase tmp
+9.git push
+10.git push -- set-upstream origin master   (it will be shown after you enterd the git push command)
+11.git push  (finally it will show you like "Everything up-to-date")
+ 
+it means you have successfully pushed the folder or file into githubls
